@@ -30,9 +30,19 @@ twitter_username: sximelon
 github_username:  sximelon
 
 # Build settings
-theme: jekyll-theme-chirpy
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-archives
+
+minimal_mistakes_skin: "dirt"
+
+jekyll-archives:
+  enabled: [categories] # 启用“分类”归档功能，你也可以在此处添加 'tags'
+  layouts:
+    category: archive-taxonomy # 指定分类页使用的布局
+  permalinks:
+    category: /categories/:name/ # 🔑 关键：设置分类页的网址格式
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -42,6 +52,9 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+include:
+  - _pages
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/

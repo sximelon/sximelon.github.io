@@ -1,0 +1,12 @@
+# _data/navigation.yml
+main:
+  - title: "Home"
+    url: /
+  - title: "Rust"
+    url: /categories/rust/
+  - title: "OS"
+    url: /categories/os/
+  - title: "Life"
+    url: /categories/life/
+  - title: "About"
+    url: /about/
