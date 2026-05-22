@@ -30,11 +30,9 @@ twitter_username: sximelon
 github_username:  sximelon
 
 # Build settings
-theme: minima
+theme: jekyll-theme-chirpy
 plugins:
-  - jekyll-remote-theme
-  
-remote_theme: vszhub/not-pure-poole
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
