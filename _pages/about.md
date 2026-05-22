@@ -6,7 +6,7 @@ author_profile: true
 comments: false
 ---
 
-# 你好！👋
+## 你好！👋
 
 我是`sximelon`，一位`Rust/OS`爱好者。
 
