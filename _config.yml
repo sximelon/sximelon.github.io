@@ -29,22 +29,40 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sximelon
 github_username:  sximelon
 
+# Author sidebar
+author:
+  name: "sximelon"
+  avatar: "/assets/images/avatar.png"
+  bio: "rust / os enthusiast"
+  location: "Nanjing"
+  email: "shenbowen7@qq.com"
+  github: "sximelon"
+  twitter: "sximelon"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: true
+
 # Build settings
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 plugins:
   - jekyll-feed
-  - jekyll-archives
+  #- jekyll-archives
   - jekyll-include-cache
 
+breadcrumbs: true  # disabled by default
 #minimal_mistakes_skin: "dirt"
 
-jekyll-archives:
-  enabled: [categories] # 启用“分类”归档功能，你也可以在此处添加 'tags'
-  layouts:
-    category: archive-taxonomy # 指定分类页使用的布局
-  permalinks:
-    category: /categories/:name/ # 🔑 关键：设置分类页的网址格式
+# jekyll-archives:
+#   enabled: [categories] # 启用“分类”归档功能，你也可以在此处添加 'tags'
+#   layouts:
+#     category: archive-taxonomy # 指定分类页使用的布局
+#   permalinks:
+#     category: /categories/:name/ # 🔑 关键：设置分类页的网址格式
 
 # Exclude from processing.
 # The following items will not be processed, by default.
