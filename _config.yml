@@ -54,7 +54,7 @@ plugins:
   #- jekyll-archives
   - jekyll-include-cache
 
-breadcrumbs: true  # disabled by default
+breadcrumbs: false  # disabled by default
 #minimal_mistakes_skin: "dirt"
 
 # jekyll-archives:
