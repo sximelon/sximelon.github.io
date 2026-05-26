@@ -1,0 +1,25 @@
+---
+---
+
+/*
+ * 自定义样式覆盖 - 仅调整文章正文区字体大小
+ */
+
+@import "minimal-mistakes";
+
+/* 正文段落、列表项 —— 降一档 */
+.page__content p,
+.page__content li,
+.page__content dl {
+  font-size: 0.875em;
+}
+
+/* 正文区标题 —— 略微收小，h4+ 维持原值（已经和正文接近） */
+.page__content h1 { font-size: 1.35em; }
+.page__content h2 { font-size: 1.15em; }
+.page__content h3 { font-size: 1.05em; }
+
+/* 文章页面顶部的大标题（.page__title）—— 收小一些 */
+.page__title {
+  font-size: 1.4em;
+}
