@@ -23,3 +23,12 @@
 .page__title {
   font-size: 1.4em;
 }
+
+/* 底部灰色区域收窄 */
+.page__footer {
+  margin-top: 1em;
+}
+.page__footer footer {
+  margin-top: 0.5em;
+  padding: 0 1em 0.5em;
+}
